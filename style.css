@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: 100vh;
+    background: #e90577;
+}
+.wrapper {
+    position: absolute;
+    border: 5px solid blueviolet;
+    border-radius: 10px;
+    height: 60pc;
+    width: 70pc;
+    background: #c4f3f3;
+    color: white;
+    display: flex;
+}
+.wrapper .left {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background: rgb(0, 0, 8);
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.left .fuel {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.fuel h2 {
+    padding-left:14px;
+    padding-top: 13px;
+}
+.fuel i {
+    padding-left: 0px;
+    padding-top: 40px;
+}
+.fa-solid.fa-gas-pump.fa-lg {
+    background-color: blue;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    width: 40px;
+    height: 40px;
+    font-size: 23px;
+    align-items: center;
+}
+.left h1 {
+    padding-top: 170px;
+    font-size: 49px;
+}
+.left h6 {
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 200;
+    color: rgb(136, 133, 133);
+}
+.boxes {
+    align-items: center;
+    display: flex;
+}
+.left .sys {
+    padding-top: 0px;
+    background-color: rgb(0, 0, 8);
+    border:1px solid  rgb(0, 4, 26);
+    border-radius: 10px;
+    box-shadow: inset 0 0 100px rgb(1, 1, 8);
+    width: 42%;
+    height: 110px;
+    margin-top: 60px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: -9px;
+}
+.sys i {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.sys p {
+    padding-top: 10px;
+    display: flex;
+    padding-left: 20px;
+    font-size: 23px;
+}
+.sys h5 {
+    padding-bottom: 0px;
+    padding-left:20px ;
+}
+.left .pro {
+    padding-top: 0px;
+    background-color: rgb(0, 2, 8);
+    border:1px solid  rgb(0, 4, 26);
+    box-shadow: inset 0 0 100px rgb(1, 1, 8);
+    border-radius: 10px;
+    width: 42%;
+    height: 110px;
+    margin-top: 60px;
+    margin-left: 6%;
+}
+.pro .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: -9px;
+}
+.pro i {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.pro p {
+    padding-top: 10px;
+    display: flex;
+    padding-left: 20px;
+    font-size: 23px;
+}
+.pro h5 {
+    padding-bottom: 0px;
+    padding-left:20px ;
+}
+.copy p {
+    margin-top: 200px;
+}
+
+.right {
+    width: 50%;
+    color: black;
+    height: 100%;
+    flex-direction: column;
+    padding-left: 23px;
+}
+.right h2 {
+    font-size: 40px;
+    padding-top: 110px;
+    margin-left: 38px;
+}
+.right p {
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: 38px;
+    color: rgb(59, 65, 73);
+}
+.form-box .input-box {
+    margin-left: 38px;
+    margin-top: 38px;
+}
+.input-box input {
+    background:transparent;
+    border-radius: 8px;
+    height: 50px;
+    width: 400px;
+    padding-left: 34px;
+    border: none;
+    color: rgb(59, 65, 73);
+    outline: #ffffff;
+    font-size: 16px;
+}
+.input-box label {
+    position: relative;
+    bottom: 10px;
+}
+.align {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border:2px solid  rgba(226, 226, 226, 0);
+    width: 440px;
+    border: 1px solid rgb(183, 220, 235);
+    height: 50px;
+}
+.form-box i {
+    padding-top: 15px;
+    padding-left: 22px;
+    font-size: 20px;
+}
+.input-box input::after {
+    box-shadow: 0 0 0 2px;
+}
+
+.body{
+font-family: Arial, sans-serif;
+background:#ffffff;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.cont .input {
+    background: transparent;
+    border-radius: 8px;
+    height: 40px;
+    width: 400px;
+    padding-left: 34px;
+    border: none;
+    color: rgb(59, 65, 73);
+    outline: #ffffff;
+    font-size: 19px;
+}
+
+.strength-bar{
+display: inline-flex;
+width: 440px;
+gap:5px;
+margin-top:8px;
+}
+
+.bar{
+height:6px;
+flex:1;
+background:#acc7c6;
+border-radius:5px;
+color: rgb(59, 65, 73);
+width: 4px;
+}
+
+.strength-info{
+display:flex;
+justify-content: space-between;
+padding-inline-end: 76px;
+font-size:13px;
+margin-top:6px;
+color: rgb(59, 65, 73);
+font-weight: bold;
+}
+
+.active {
+    background: #3cb371;
+}
+
+.segment {
+    flex: 1;
+    height: 8px;
+    background: #ddd;
+    border-radius: 4px;
+}
+#strengthText{
+font-weight:600;
+}
+
+#matchMsg{
+font-size:13px;
+margin-top:6px;
+}
+
+.terms {
+    display: flex;
+}
+.terms input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 7px;
+    margin-left: 38px;
+    border: 1px solid rgb(189, 190, 190);
+    background-color: #ffffff;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+}
+.terms input[type="checkbox"]:checked {
+    background-color: rgb(8, 139, 226);
+    border-color:  rgb(189, 190, 190);
+}
+.terms input[type="checkbox"]:checked::after {
+    content: "\2714";
+    color: #ffffff;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+.terms label {
+    margin-top: 3px;
+}
+.terms a {
+    color: rgb(8, 139, 226);
+    text-decoration: none;
+}
+.create button[type="submit"] {
+    cursor: pointer;
+    justify-content: center;
+    margin-left:38px;
+    width: 440px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 11px;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 20px;
+}
+.last a {
+    color: rgb(8, 139, 226);
+    text-decoration: none;
+}
+.last  {
+    display: flex;
+    margin-left: 95px;
+    margin-top: 20px;
+}
